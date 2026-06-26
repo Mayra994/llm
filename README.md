@@ -25,7 +25,7 @@ pip freeze > requirements.txt
 python3 -V > runtime.txt
 
 ## 8.
-curl thhp://ollama/install.sh|sh
+curl http://ollama/install.sh|sh
 
 ## 9.
 ollama serve
@@ -37,4 +37,4 @@ ollama list
 ollama pull llama3.2:3b
 
 ## 12.
-ollama run llama 3.2:3b
+ollama run llama3.2:3b
